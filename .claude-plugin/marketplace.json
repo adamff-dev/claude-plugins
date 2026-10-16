@@ -1,0 +1,19 @@
+{
+  "name": "adamff-dev-plugins",
+  "owner": {
+    "name": "adamff-dev",
+    "url": "https://github.com/adamff-dev"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by adamff-dev: Sub Meter, your subscription usage in the prompt footer."
+  },
+  "plugins": [
+    {
+      "name": "sub-meter",
+      "source": "./plugins/sub-meter",
+      "description": "Subscription usage at the bottom right: the 5-hour and weekly windows, side by side or taking turns.",
+      "version": "0.1.0",
+      "category": "productivity"
+    }
+  ]
+}
