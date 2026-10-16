@@ -17,8 +17,8 @@ While it is on, it also drops the `(shift+tab to cycle)` hint after the permissi
 ## Install
 
 ```text
-/plugin marketplace add midudev/better-claude
-/plugin install sub-meter@better-claude
+/plugin marketplace add adamff-dev/claude-plugins
+/plugin install sub-meter@adamff-claude-plugins
 ```
 
 ## How it works
