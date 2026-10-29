@@ -17,7 +17,8 @@ function tilde (path: string, home: string | undefined) {
 const clip = (path: string, max: number) => (path.length <= max ? path : '…' + path.slice(path.length - (max - 1)))
 
 export const register: Register = (on, options) => {
-  const max = typeof options.maxLength === 'number' && options.maxLength > 4 ? options.maxLength : DEFAULT_MAX
+  const asked = Number(options.maxLength)
+  const max = Number.isFinite(asked) && asked > 4 ? asked : DEFAULT_MAX
   const shortenHome = options.shortenHome !== false
 
   // Bottom right of the prompt footer: the engine's mode labels, then the directory the session runs in.

@@ -12,7 +12,7 @@ Your home folder is shown as `~`, and long paths are cut from the left so the en
 
 Set them in `/plugin configure cwd-path@adamff-claude-plugins`:
 
-- `maxLength` (default 50): the longest path shown before it is cut.
+- `maxLength` (30, 40, 50, 60, 80 or 100; default 50): the longest path shown before it is cut.
 - `shortenHome` (default on): show the home folder as `~`.
 
 ## Install
