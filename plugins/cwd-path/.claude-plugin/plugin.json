@@ -1,0 +1,24 @@
+{
+  "name": "cwd-path",
+  "version": "0.1.0",
+  "description": "Shows the directory Claude Code is working in at the bottom right of the prompt footer.",
+  "author": { "name": "adamff-dev", "url": "https://github.com/adamff-dev" },
+  "homepage": "https://github.com/adamff-dev/claude-plugins",
+  "repository": "https://github.com/adamff-dev/claude-plugins",
+  "license": "MIT",
+  "keywords": ["path", "cwd", "directory", "status", "mod"],
+  "userConfig": {
+    "maxLength": {
+      "type": "number",
+      "title": "Maximum path length",
+      "description": "Longer paths are cut from the left, keeping the end of the path.",
+      "default": 50
+    },
+    "shortenHome": {
+      "type": "boolean",
+      "title": "Show the home folder as ~",
+      "description": "Replace your home directory at the start of the path with ~.",
+      "default": true
+    }
+  }
+}

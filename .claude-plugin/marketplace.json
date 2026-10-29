@@ -5,13 +5,13 @@
     "url": "https://github.com/adamff-dev"
   },
   "metadata": {
-    "description": "Claude Code plugins by adamff-dev: Sub Meter, your subscription usage in the prompt footer."
+    "description": "Claude Code plugins by adamff-dev: cwd-path, the directory you are working in, in the prompt footer."
   },
   "plugins": [
     {
-      "name": "sub-meter",
-      "source": "./plugins/sub-meter",
-      "description": "Subscription usage at the bottom right: the 5-hour and weekly windows, side by side or taking turns.",
+      "name": "cwd-path",
+      "source": "./plugins/cwd-path",
+      "description": "The current working directory at the bottom right of the prompt footer.",
       "version": "0.1.0",
       "category": "productivity"
     }
