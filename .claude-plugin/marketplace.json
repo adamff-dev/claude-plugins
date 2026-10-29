@@ -12,7 +12,7 @@
       "name": "cwd-path",
       "source": "./plugins/cwd-path",
       "description": "The current working directory at the bottom right of the prompt footer.",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "category": "productivity"
     }
   ]
